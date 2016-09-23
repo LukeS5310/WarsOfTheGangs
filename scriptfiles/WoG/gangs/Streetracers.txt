@@ -1,0 +1,12 @@
+Name=Streetracers
+Color=16744362
+KillsAll=0
+KillsGangs=0
+Score=0
+Welcome=Äîáðî ïîæàëîâàòü â Streetracers! (âû ìîæåòå ñìåíèòü ïðèâåòñòâèå êîìàíäîé /g welcome)
+Reinforces=0
+XPIncome=0
+MoneyIncome=0
+Capital=-1
+GZones=0
+Leader=Leon93

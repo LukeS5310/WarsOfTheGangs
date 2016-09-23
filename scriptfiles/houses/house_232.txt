@@ -1,0 +1,4 @@
+Coords=-2664.800048,-8.899991,6.099997
+Owner=Kolya_Wayne
+Name=Ocean Flats 99
+Cost=1000000

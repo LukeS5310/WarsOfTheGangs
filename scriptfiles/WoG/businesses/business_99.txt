@@ -1,0 +1,5 @@
+Coords=1751.8044,2214.3374,10.8203
+Owner=Unknown
+Name=Wedding and Welding
+Cost=100000
+Income=100

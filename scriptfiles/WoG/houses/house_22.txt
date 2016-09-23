@@ -1,0 +1,4 @@
+Coords=827.900024,-858.500000,70.300003
+Owner=Unknown
+Name=Mulholland 35
+Cost=250000

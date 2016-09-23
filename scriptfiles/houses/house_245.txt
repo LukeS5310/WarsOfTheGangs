@@ -1,0 +1,4 @@
+Coords=1498.500000,-1581.599975,13.500000
+Owner=Maxim_Vlasov
+Name=Pershing Square 95
+Cost=125000

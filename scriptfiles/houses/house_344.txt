@@ -1,0 +1,4 @@
+Coords=937.644104,-848.017822,93.681098
+Owner=DiK_MaN
+Name=Mulholland 99
+Cost=500000

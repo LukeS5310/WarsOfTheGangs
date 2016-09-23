@@ -1,0 +1,4 @@
+Coords=-2321.800048,679.000000,41.900001
+Owner=CoolLans
+Name=Juniper Hill 33
+Cost=1500000

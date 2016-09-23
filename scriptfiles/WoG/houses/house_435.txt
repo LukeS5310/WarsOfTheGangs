@@ -1,0 +1,4 @@
+Coords=-2635.899902,240.128097,4.328100
+Owner=LukeS
+Name=Ocean Flats 1
+Cost=25000

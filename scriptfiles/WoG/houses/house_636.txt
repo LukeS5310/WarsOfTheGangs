@@ -1,0 +1,4 @@
+Coords=2469.416503,-1647.739379,13.470897
+Owner=Unknown
+Name=Ganton 53
+Cost=150000

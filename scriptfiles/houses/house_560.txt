@@ -1,0 +1,4 @@
+Coords=187.652404,-1803.219970,4.718400
+Owner=Anton_Djaayzer
+Name=Santa Maria Beach 27
+Cost=500000

@@ -1,0 +1,4 @@
+Coords=1280.699951,-1860.900024,13.500000
+Owner=sahsa_4eper
+Name=Verdant Bluffs 74
+Cost=50000

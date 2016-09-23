@@ -1,0 +1,4 @@
+Coords=764.882812,2087.572998,6.710897
+Owner=Unknown
+Name=Bone County 34
+Cost=1000000

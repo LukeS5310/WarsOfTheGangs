@@ -1,0 +1,4 @@
+Coords=-2687.319824,115.350044,7.210000
+Owner=G.I.B.R.I.D
+Name=Ocean Flats 44
+Cost=125000

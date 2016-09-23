@@ -1,0 +1,4 @@
+Coords=2369.100097,734.599975,11.399991
+Owner=sexy
+Name=Rockshore West 91
+Cost=125000

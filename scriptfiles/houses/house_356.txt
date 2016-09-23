@@ -1,0 +1,4 @@
+Coords=-2792.000976,-35.939098,7.859395
+Owner=Sportsmen
+Name=Ocean Flats 78
+Cost=75000

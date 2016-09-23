@@ -1,0 +1,4 @@
+Coords=-367.368286,1167.072998,19.871900
+Owner=Dark
+Name=Fort Carson 3
+Cost=250000

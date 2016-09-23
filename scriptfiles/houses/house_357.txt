@@ -1,0 +1,4 @@
+Coords=305.546386,-1771.083984,4.538700
+Owner=valera
+Name=Santa Maria Beach 6
+Cost=75000

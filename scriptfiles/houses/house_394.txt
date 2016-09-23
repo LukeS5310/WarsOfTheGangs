@@ -1,0 +1,4 @@
+Coords=-258.011596,2782.208251,62.687500
+Owner=Demo
+Name=Las Payasadas 65
+Cost=25000

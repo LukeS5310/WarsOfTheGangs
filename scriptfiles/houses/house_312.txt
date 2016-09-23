@@ -1,0 +1,4 @@
+Coords=-2338.399902,579.000000,27.799999
+Owner=Pidr
+Name=Juniper Hill 52
+Cost=125000

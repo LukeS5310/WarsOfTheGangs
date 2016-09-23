@@ -1,0 +1,4 @@
+Coords=1893.099975,1596.400024,10.500000
+Owner=Demo
+Name=Pirates in Men's Pants 
+Cost=1500000

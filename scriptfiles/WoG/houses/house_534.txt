@@ -1,0 +1,4 @@
+Coords=-1274.056274,2723.506103,50.266300
+Owner=Unknown
+Name=Tierra Robada 84
+Cost=500000

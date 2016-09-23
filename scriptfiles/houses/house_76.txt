@@ -1,0 +1,4 @@
+Coords=-2551.979980,2266.743408,5.475500
+Owner=Leon93
+Name=Bayside 43
+Cost=1000000

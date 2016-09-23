@@ -1,0 +1,3 @@
+Coords=2186.6272,2416.1228,73.0339
+Name=Emerald Isle rooftop
+Class=5

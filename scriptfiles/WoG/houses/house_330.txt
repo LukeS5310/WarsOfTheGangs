@@ -1,0 +1,4 @@
+Coords=1465.000000,1895.099975,11.399992
+Owner=Unknown
+Name=Redsands West 14
+Cost=1000000

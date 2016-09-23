@@ -1,0 +1,4 @@
+Coords=2652.800048,-1991.099975,13.500000
+Owner=John_Westion
+Name=Willowfield 95
+Cost=50000

@@ -1,0 +1,4 @@
+Coords=-370.639007,1166.486816,20.271900
+Owner=Heavy
+Name=Fort Carson 1
+Cost=250000

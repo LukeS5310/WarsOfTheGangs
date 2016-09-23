@@ -1,0 +1,4 @@
+Coords=2317.199951,691.099975,11.399992
+Owner=Unknown
+Name=Rockshore West 83
+Cost=125000

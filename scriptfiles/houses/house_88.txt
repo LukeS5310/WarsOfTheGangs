@@ -1,0 +1,4 @@
+Coords=-2739.820068,771.569946,54.380001
+Owner=RaMPaGe
+Name=Santa Flora 60
+Cost=75000

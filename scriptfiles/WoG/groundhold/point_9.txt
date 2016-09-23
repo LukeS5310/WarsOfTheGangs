@@ -1,0 +1,3 @@
+Coords=-2231.3450,2326.0313,7.5469
+Name=Bayside Helipad
+Class=2

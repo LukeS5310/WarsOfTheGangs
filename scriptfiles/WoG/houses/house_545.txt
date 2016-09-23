@@ -1,0 +1,4 @@
+Coords=-1427.050903,2171.399414,50.625000
+Owner=Unknown
+Name=Tierra Robada 86
+Cost=500000

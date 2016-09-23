@@ -1,0 +1,4 @@
+Coords=984.200012,-1600.900024,13.500000
+Owner=Unknown
+Name=Verona Beach 57
+Cost=75000

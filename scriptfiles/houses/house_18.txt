@@ -1,0 +1,4 @@
+Coords=2486.399902,-1645.400024,14.000000
+Owner=LukeS
+Name=Ganton 39
+Cost=125000

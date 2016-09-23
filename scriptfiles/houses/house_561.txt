@@ -1,0 +1,4 @@
+Coords=945.859985,-709.979492,122.619903
+Owner=DiK_MaN
+Name=Red County 68
+Cost=125000

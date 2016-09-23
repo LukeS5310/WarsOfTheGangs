@@ -1,0 +1,4 @@
+Coords=-911.313171,2686.123535,42.370300
+Owner=Re5cuer
+Name=Valle Ocultado 30
+Cost=25000

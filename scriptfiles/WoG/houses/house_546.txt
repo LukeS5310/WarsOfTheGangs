@@ -1,0 +1,4 @@
+Coords=-1827.742187,2042.534179,8.660599
+Owner=Unknown
+Name=Tierra Robada 85
+Cost=500000

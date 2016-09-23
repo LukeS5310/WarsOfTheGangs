@@ -1,0 +1,4 @@
+Coords=-2689.672363,-101.602699,7.203100
+Owner=CoolLans
+Name=Ocean Flats 65
+Cost=1000000

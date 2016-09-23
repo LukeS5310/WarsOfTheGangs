@@ -1,0 +1,7 @@
+none URL,Отключить радио
+94.25.53.132:80/ultra-128.mp3,Радио ULTRA
+dir.xiph.org/listen/1504599/listen.m3u,ROCK FM 95.2
+94.25.53.133/nashe-128.mp3,НАШЕ Радио
+maximum.fmtuner.ru,MAXIMUM
+radio.eve-play.ru/ruseveradio.m3u,EVE RADIO
+laradiofm.ru/download/12-ru-m3u,Авторадио

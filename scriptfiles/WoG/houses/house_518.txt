@@ -1,0 +1,4 @@
+Coords=-553.698486,2593.720214,53.934799
+Owner=Unknown
+Name=Tierra Robada 98
+Cost=25000

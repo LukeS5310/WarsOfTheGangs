@@ -1,0 +1,4 @@
+Coords=1325.426025,2568.437011,10.820300
+Owner=[STEEP]slavok
+Name=Prickle Pine 34
+Cost=125000

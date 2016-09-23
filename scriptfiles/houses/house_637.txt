@@ -1,0 +1,4 @@
+Coords=1319.349365,1251.289306,10.820300
+Owner=KOBRA
+Name=Las Venturas Airport 3
+Cost=250000

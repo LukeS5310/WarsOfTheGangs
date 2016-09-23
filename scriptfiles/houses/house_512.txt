@@ -1,0 +1,4 @@
+Coords=-2116.889892,927.438598,86.079063
+Owner=Oleg_Jerq
+Name=Calton Heights 80
+Cost=250000

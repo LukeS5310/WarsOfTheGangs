@@ -1,0 +1,4 @@
+Coords=1266.000000,-1861.199951,13.500000
+Owner=wqw
+Name=Verdant Bluffs 1
+Cost=25000

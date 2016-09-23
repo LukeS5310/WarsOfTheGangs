@@ -1,0 +1,4 @@
+Coords=1085.000000,2031.800048,11.399992
+Owner=Unknown
+Name=Whitewood Estates 99
+Cost=1000000

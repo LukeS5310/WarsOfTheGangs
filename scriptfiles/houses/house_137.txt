@@ -1,0 +1,4 @@
+Coords=2000.038818,-1117.656616,26.781299
+Owner=Noise_Cosc
+Name=Glen Park 7
+Cost=1000000

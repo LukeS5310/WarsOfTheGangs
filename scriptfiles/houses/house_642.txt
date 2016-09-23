@@ -1,0 +1,4 @@
+Coords=-367.712707,1163.884277,19.742200
+Owner=No_Mercy
+Name=Fort Carson 4
+Cost=250000

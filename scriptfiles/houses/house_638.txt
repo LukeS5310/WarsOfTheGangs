@@ -1,0 +1,4 @@
+Coords=1319.349365,1251.289306,10.820300
+Owner=
+Name=Las Venturas Airport 25
+Cost=250000

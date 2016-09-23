@@ -1,0 +1,4 @@
+Coords=-169.142807,2707.292724,62.533199
+Owner=Demo
+Name=Las Payasadas 18
+Cost=125000

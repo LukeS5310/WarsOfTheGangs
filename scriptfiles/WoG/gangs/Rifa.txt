@@ -1,0 +1,16 @@
+Name=Rifa
+Color=1687547306
+KillsAll=5
+KillsGangs=0
+Score=0
+Welcome=Hi nigga (Èçìåíåíî Nigga_Bos)
+Reinforces=0
+XPIncome=0
+MoneyIncome=0
+Capital=-1
+GZones=-3
+Leader=Nigga_Bos
+Member=Alexey_Shevtsov
+Member=Denis_onishenko
+Member=Maksim_Dmitriev
+Member=Datet2

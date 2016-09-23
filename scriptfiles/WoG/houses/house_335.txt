@@ -1,0 +1,4 @@
+Coords=-90.507896,-1592.283081,3.004300
+Owner=Unknown
+Name=Flint Intersection 62
+Cost=1500000

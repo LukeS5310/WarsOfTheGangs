@@ -1,0 +1,4 @@
+Coords=-1383.300048,-342.100006,14.100000
+Owner=KOBRA
+Name=Easter Bay Airport 84
+Cost=1500000

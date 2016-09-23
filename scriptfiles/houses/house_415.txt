@@ -1,0 +1,4 @@
+Coords=-227.346298,2711.376708,62.976600
+Owner=Demo
+Name=Las Payasadas 54
+Cost=1500000

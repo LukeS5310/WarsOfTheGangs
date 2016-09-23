@@ -1,0 +1,4 @@
+Coords=-2688.993408,198.261199,7.203100
+Owner=30cmx
+Name=Ocean Flats 71
+Cost=25000

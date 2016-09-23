@@ -1,0 +1,15 @@
+Name=Ghetto
+Color=866844586
+KillsAll=2
+KillsGangs=0
+Score=0
+Welcome=Òîëüêî Òàùåðû!! (Èçìåíåíî Andrey_Carlion)
+Reinforces=0
+XPIncome=80000
+MoneyIncome=90500
+Capital=-1
+GZones=2
+Leader=Andrey_Carlion
+Member=Charlie_Chaplin
+Member=Leha_)
+Member=dankill123321

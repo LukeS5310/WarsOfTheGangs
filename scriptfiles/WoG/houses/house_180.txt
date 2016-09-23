@@ -1,0 +1,4 @@
+Coords=-2027.599975,-43.000000,38.799999
+Owner=LukeS
+Name=Doherty 44
+Cost=125000

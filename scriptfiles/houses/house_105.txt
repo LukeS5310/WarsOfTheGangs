@@ -1,0 +1,4 @@
+Coords=-2625.330078,2283.449951,8.300003
+Owner=KOBRA
+Name=Bayside 17
+Cost=100000

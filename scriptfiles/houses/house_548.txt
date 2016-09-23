@@ -1,0 +1,4 @@
+Coords=2282.254150,-1641.214233,15.889800
+Owner=Noise_Cosc
+Name=Ganton 91
+Cost=75000

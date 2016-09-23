@@ -1,0 +1,4 @@
+Coords=-1970.476806,1222.805664,31.773231
+Owner=ravwan
+Name=Downtown 93
+Cost=500000

@@ -1,0 +1,4 @@
+Coords=2523.736328,-1658.416381,15.493499
+Owner=Unknown
+Name=Ganton 57
+Cost=150000

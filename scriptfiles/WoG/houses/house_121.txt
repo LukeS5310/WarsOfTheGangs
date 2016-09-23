@@ -1,0 +1,4 @@
+Coords=2147.940429,-1434.110717,25.539100
+Owner=LukeS
+Name=Jefferson 21
+Cost=125000

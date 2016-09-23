@@ -1,0 +1,4 @@
+Coords=-651.385070,1450.686157,13.617199
+Owner=Unknown
+Name=Tierra Robada 7
+Cost=500000

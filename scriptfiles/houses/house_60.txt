@@ -1,0 +1,4 @@
+Coords=2065.959472,2721.990234,10.820300
+Owner=[Maxi_Racing]nato
+Name=Prickle Pine 31
+Cost=100000

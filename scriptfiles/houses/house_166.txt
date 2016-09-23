@@ -1,0 +1,4 @@
+Coords=2628.414550,2348.319091,10.820300
+Owner=LukeS
+Name=Julius Thruway East 10
+Cost=1000000

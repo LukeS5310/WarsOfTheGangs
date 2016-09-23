@@ -1,0 +1,4 @@
+Coords=2449.381103,1284.571044,11.182538
+Owner=bartos
+Name=The Camel's Toe 31
+Cost=125000

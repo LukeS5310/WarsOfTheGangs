@@ -1,0 +1,4 @@
+Coords=-18.271499,1115.431396,20.939899
+Owner=Dark
+Name=Fort Carson 52
+Cost=500000

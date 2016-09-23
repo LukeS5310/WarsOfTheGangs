@@ -1,0 +1,4 @@
+Coords=2244.300048,-1637.699951,15.899991
+Owner=Heavy
+Name=Ganton 0
+Cost=1000000

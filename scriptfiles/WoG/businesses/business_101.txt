@@ -1,0 +1,5 @@
+Coords=1693.8461,2207.5427,11.0692
+Owner=Unknown
+Name=SteakHouse
+Cost=100000
+Income=100

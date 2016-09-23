@@ -1,0 +1,4 @@
+Coords=2597.500000,1363.900024,10.800000
+Owner=ValeraTV
+Name=The Camel's Toe 29
+Cost=25000

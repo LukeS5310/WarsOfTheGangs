@@ -1,0 +1,4 @@
+Coords=-2624.100097,1410.800048,7.000000
+Owner=Leon93
+Name=Battery Point 48
+Cost=1000000

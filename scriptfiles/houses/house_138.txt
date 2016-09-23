@@ -1,0 +1,4 @@
+Coords=189.638000,-1308.228637,70.249298
+Owner=AnderSonic
+Name=Richman 76
+Cost=1500000

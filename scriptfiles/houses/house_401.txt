@@ -1,0 +1,4 @@
+Coords=-310.766296,1303.475708,53.664299
+Owner=Lokedloy
+Name=Bone County 1
+Cost=125000

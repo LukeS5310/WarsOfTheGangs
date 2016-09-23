@@ -1,0 +1,4 @@
+Coords=-1802.971191,2038.442993,9.590200
+Owner=Unknown
+Name=Tierra Robada 92
+Cost=1000000

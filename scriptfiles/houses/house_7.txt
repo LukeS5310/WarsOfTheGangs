@@ -1,0 +1,4 @@
+Coords=1905.900024,-1113.699951,26.600000
+Owner=Lokedloy
+Name=Glen Park 61
+Cost=75000

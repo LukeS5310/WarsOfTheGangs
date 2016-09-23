@@ -1,0 +1,4 @@
+Coords=2094.831054,2188.717529,10.820300
+Owner=LukeS
+Name=Redsands East 63
+Cost=25000

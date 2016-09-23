@@ -1,0 +1,4 @@
+Coords=298.122314,-1337.450195,53.441501
+Owner=Daren
+Name=Richman 6
+Cost=100000

@@ -1,0 +1,4 @@
+Coords=-413.730102,2229.679199,42.425800
+Owner=Leon93
+Name=El Castillo del Diablo 75
+Cost=125000

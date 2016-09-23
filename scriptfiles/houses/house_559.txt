@@ -1,0 +1,4 @@
+Coords=1442.670043,-629.190002,95.709999
+Owner=DiK_MaN
+Name=Mulholland 41
+Cost=125000

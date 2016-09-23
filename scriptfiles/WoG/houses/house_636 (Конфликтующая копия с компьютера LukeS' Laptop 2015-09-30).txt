@@ -1,0 +1,4 @@
+Coords=2469.416503,-1647.739379,13.470898
+Owner=Unknown
+Name=Groove St
+Cost=150000

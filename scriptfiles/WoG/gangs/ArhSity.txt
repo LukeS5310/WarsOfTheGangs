@@ -1,0 +1,14 @@
+Name=ArhSity
+Color=1258336426
+KillsAll=52
+KillsGangs=15
+Score=225
+Welcome=Äîáðî ïîæàëîâàòü â ArhSity! (âû ìîæåòå ñìåíèòü ïðèâåòñòâèå êîìàíäîé /g welcome)
+Reinforces=10
+XPIncome=77200
+MoneyIncome=90500
+Capital=-1
+GZones=0
+Leader=vova29rus
+Member=kakashka
+Member=[__KPACOTKA__]

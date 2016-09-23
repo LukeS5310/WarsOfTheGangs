@@ -1,0 +1,4 @@
+Coords=1319.349365,1251.289306,10.820300
+Owner=Unknown
+Name=Las Venturas Airport 56
+Cost=250000

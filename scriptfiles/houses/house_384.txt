@@ -1,0 +1,4 @@
+Coords=-2598.164306,2357.101806,9.883000
+Owner=CoolLans
+Name=Bayside 99
+Cost=100000

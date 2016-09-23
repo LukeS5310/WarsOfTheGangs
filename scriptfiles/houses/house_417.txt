@@ -1,0 +1,4 @@
+Coords=1882.473022,921.229675,10.820302
+Owner=Barabashka
+Name=The Four Dragons Casino 61
+Cost=25000

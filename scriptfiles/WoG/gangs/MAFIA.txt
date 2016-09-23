@@ -1,0 +1,12 @@
+Name=MAFIA
+Color=16777130
+KillsAll=8
+KillsGangs=8
+Score=31
+Welcome=Äîáðî ïîæàëîâàòü â MAFIA! (âû ìîæåòå ñìåíèòü ïðèâåòñòâèå êîìàíäîé /g welcome)
+Reinforces=0
+XPIncome=0
+MoneyIncome=0
+Capital=-1
+GZones=0
+Leader=noob

@@ -1,0 +1,4 @@
+Coords=-2722.270019,923.510009,67.599998
+Owner=kodian
+Name=Paradiso 0
+Cost=75000

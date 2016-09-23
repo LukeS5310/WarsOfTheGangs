@@ -1,0 +1,5 @@
+Coords=2210.1697,2524.9119,10.8203
+Owner=Unknown
+Name=Discount wedding shop
+Cost=25000
+Income=15

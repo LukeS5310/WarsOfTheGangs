@@ -1,0 +1,4 @@
+Coords=1992.740722,2763.551757,10.820300
+Owner=Noise_Cosc
+Name=Prickle Pine 30
+Cost=125000

@@ -1,0 +1,4 @@
+Coords=2317.199951,691.099975,11.399991
+Owner=MoNG
+Name=Rockshore West 90
+Cost=125000

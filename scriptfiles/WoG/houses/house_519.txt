@@ -1,0 +1,4 @@
+Coords=-582.615783,2712.652587,71.819503
+Owner=Unknown
+Name=Tierra Robada 13
+Cost=25000

@@ -1,0 +1,4 @@
+Coords=-242.815597,2710.478515,62.687500
+Owner=Noise_Cosc
+Name=Las Payasadas 91
+Cost=125000

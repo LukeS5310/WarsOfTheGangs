@@ -1,0 +1,4 @@
+Coords=1931.199951,1345.099975,9.899991
+Owner=AnderSonic
+Name=The High Roller 83
+Cost=250000

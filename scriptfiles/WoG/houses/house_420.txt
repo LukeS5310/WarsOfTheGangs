@@ -1,0 +1,4 @@
+Coords=1684.755981,2046.500976,11.468750
+Owner=Unknown
+Name=Redsands West 68
+Cost=75000

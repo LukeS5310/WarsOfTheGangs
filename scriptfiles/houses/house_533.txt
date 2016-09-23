@@ -1,0 +1,4 @@
+Coords=-2037.404907,1728.890625,1.901772
+Owner=Leon93
+Name=Tierra Robada 8
+Cost=500000

@@ -1,0 +1,4 @@
+Coords=1225.552490,2584.797851,10.820300
+Owner=Lary_Vegas
+Name=Prickle Pine 55
+Cost=1000000

@@ -1,0 +1,3 @@
+Coords=-810.3707,2429.3315,156.9656
+Name=Mystery Shack
+Class=4

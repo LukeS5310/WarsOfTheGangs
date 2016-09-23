@@ -1,0 +1,13 @@
+Name=Red
+Color=-1439485014
+KillsAll=0
+KillsGangs=0
+Score=0
+Welcome=Âñåì ïðèâåò,çàõâàòûâàåì òåððèòîðèÿ îòâîåâûâàåì. (Èçìåíåíî Maks_Linkol)
+Reinforces=0
+XPIncome=8200
+MoneyIncome=12000
+Capital=-1
+GZones=2
+Leader=Maks_Linkol
+Member=Jack_Travor

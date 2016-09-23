@@ -1,0 +1,4 @@
+Coords=-2027.599975,-43.000000,38.799999
+Owner=DenCJ
+Name=Doherty 63
+Cost=125000

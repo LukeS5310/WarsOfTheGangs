@@ -1,0 +1,4 @@
+Coords=2195.600097,1686.300048,12.300000
+Owner=787878789
+Name=Caligula's Palace 81
+Cost=125000

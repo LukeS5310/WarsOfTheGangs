@@ -1,0 +1,4 @@
+Coords=-672.997497,2706.250488,70.663299
+Owner=Unknown
+Name=Tierra Robada 12
+Cost=500000

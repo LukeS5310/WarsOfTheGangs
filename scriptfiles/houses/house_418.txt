@@ -1,0 +1,4 @@
+Coords=2093.977050,774.844116,11.453125
+Owner=Albert_Titkin
+Name=Rockshore West 64
+Cost=25000

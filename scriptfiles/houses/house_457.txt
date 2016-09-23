@@ -1,0 +1,4 @@
+Coords=271.662414,-49.271099,2.777199
+Owner=DiK_MaN
+Name=Blueberry 11
+Cost=25000

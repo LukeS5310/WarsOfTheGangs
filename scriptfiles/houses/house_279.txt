@@ -1,0 +1,4 @@
+Coords=2177.600097,962.200012,10.800000
+Owner=Unknown
+Name=Come-A-Lot 92
+Cost=125000

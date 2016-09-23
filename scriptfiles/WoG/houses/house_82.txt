@@ -1,0 +1,4 @@
+Coords=-1446.712524,-1544.756225,102.117401
+Owner=Unknown
+Name=Whetstone 34
+Cost=25000

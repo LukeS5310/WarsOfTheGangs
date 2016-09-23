@@ -1,0 +1,4 @@
+Coords=1663.500000,-1862.900024,13.500000
+Owner=KOBRA
+Name=Verdant Bluffs 62
+Cost=250000

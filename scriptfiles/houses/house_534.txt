@@ -1,0 +1,4 @@
+Coords=-2097.770019,1717.239135,1.876827
+Owner=Leon93
+Name=Tierra Robada 18
+Cost=500000

@@ -1,0 +1,4 @@
+Coords=-2639.334716,1340.393554,8.484517
+Owner=Black_Wolf
+Name=Battery Point 9
+Cost=500000

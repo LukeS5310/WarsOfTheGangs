@@ -1,0 +1,4 @@
+Coords=1498.500000,-1581.599975,13.500000
+Owner=LukeS
+Name=Pershing Square 37
+Cost=125000

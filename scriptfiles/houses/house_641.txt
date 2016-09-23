@@ -1,0 +1,4 @@
+Coords=-366.949707,1171.007324,20.271900
+Owner=Unknown
+Name=Fort Carson 2
+Cost=250000

@@ -1,0 +1,3 @@
+Coords=-2498.4827,-704.4975,139.3203
+Name=SF Missionary Hill
+Class=3

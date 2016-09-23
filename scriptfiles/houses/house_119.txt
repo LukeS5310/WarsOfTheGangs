@@ -1,0 +1,4 @@
+Coords=1102.687500,-1093.566772,28.468799
+Owner=Mr_Skil
+Name=Temple 35
+Cost=125000

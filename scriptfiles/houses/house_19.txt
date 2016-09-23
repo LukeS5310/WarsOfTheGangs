@@ -1,0 +1,4 @@
+Coords=989.299987,-828.000000,95.400001
+Owner=maksi977
+Name=Mulholland 79
+Cost=250000

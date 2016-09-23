@@ -1,0 +1,4 @@
+Coords=-2635.899902,240.128097,4.328100
+Owner=L.D
+Name=Ocean Flats 50
+Cost=25000

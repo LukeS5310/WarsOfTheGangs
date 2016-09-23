@@ -1,0 +1,4 @@
+Coords=-92.568702,971.243286,19.947399
+Owner=Damiryan
+Name=Fort Carson 72
+Cost=25000

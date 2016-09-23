@@ -1,0 +1,4 @@
+Coords=1044.929199,-642.321594,120.117202
+Owner=Danil_Travnikov
+Name=Home
+Cost=150000

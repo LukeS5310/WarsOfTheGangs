@@ -1,0 +1,5 @@
+Coords=2244.4026,2523.4578,10.8203
+Owner=Unknown
+Name=Club
+Cost=150000
+Income=1000

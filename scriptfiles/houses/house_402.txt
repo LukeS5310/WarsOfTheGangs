@@ -1,0 +1,4 @@
+Coords=-260.905212,1120.123413,20.939899
+Owner=Vlad_Baton
+Name=Fort Carson 44
+Cost=125000

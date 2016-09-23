@@ -1,0 +1,2 @@
+Coords=-217.0294,979.3394,19.5000
+Name=Fort Carson

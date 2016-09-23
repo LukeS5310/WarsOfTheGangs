@@ -1,0 +1,4 @@
+Coords=2512.953613,-1650.741455,14.093798
+Owner=Re5cuer
+Name=Ganton 76
+Cost=150000

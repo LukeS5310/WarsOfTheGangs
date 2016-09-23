@@ -1,0 +1,5 @@
+Coords=2169.0254,2117.1201,10.8203
+Owner=Unknown
+Name=Souvenirs shop
+Cost=150000
+Income=1000

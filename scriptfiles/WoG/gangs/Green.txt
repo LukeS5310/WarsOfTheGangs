@@ -1,0 +1,12 @@
+Name=Green
+Color=-1439485014
+KillsAll=0
+KillsGangs=0
+Score=0
+Welcome=Äîáðî ïîæàëîâàòü â Green! (âû ìîæåòå ñìåíèòü ïðèâåòñòâèå êîìàíäîé /g welcome)
+Reinforces=12
+XPIncome=78600
+MoneyIncome=90500
+Capital=-1
+GZones=0
+Leader=Sem_Vinster

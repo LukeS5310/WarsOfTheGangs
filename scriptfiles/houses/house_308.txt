@@ -1,0 +1,4 @@
+Coords=-1961.800048,437.600006,35.099998
+Owner=KiLlLeR
+Name=Downtown 59
+Cost=75000

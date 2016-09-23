@@ -1,0 +1,4 @@
+Coords=1534.660034,-800.309997,72.839996
+Owner=Cool_Gamer
+Name=Mulholland Intersection 7
+Cost=1000000

@@ -1,0 +1,4 @@
+Coords=1238.099975,-1583.500000,13.399991
+Owner=Evgeniy_Ismaylow
+Name=Verona Beach 38
+Cost=25000

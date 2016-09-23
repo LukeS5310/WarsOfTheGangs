@@ -1,0 +1,4 @@
+Coords=1468.400024,-903.700012,54.799999
+Owner=wqw
+Name=Mulholland Intersection
+Cost=100000

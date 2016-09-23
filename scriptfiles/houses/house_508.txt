@@ -1,0 +1,4 @@
+Coords=-2791.718017,-145.805740,7.859375
+Owner=CoolLans
+Name=Ocean Flats 22
+Cost=125000

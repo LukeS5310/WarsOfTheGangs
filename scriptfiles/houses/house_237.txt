@@ -1,0 +1,4 @@
+Coords=-2213.600097,722.299987,49.400001
+Owner=andrey008
+Name=Chinatown 26
+Cost=25000

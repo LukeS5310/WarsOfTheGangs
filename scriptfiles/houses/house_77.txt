@@ -1,0 +1,4 @@
+Coords=-2379.456787,2444.236083,10.169400
+Owner=L.D
+Name=Bayside 24
+Cost=1000000

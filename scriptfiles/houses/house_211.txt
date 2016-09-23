@@ -1,0 +1,4 @@
+Coords=1696.900024,1363.400024,10.699995
+Owner=KOBRA
+Name=Las Venturas Airport 98
+Cost=125000

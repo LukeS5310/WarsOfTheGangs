@@ -1,0 +1,4 @@
+Coords=-376.183593,2260.450683,43.061901
+Owner=Baron_Samedi
+Name=El Castillo del Diablo
+Cost=125000

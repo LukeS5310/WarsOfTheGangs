@@ -1,0 +1,124 @@
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[13:29:24] 
+[13:29:24] Server Plugins
+[13:29:24] --------------
+[13:29:24]  Loading plugin: sscanf
+[13:29:24] 
+
+[13:29:24]  ===============================
+
+[13:29:24]       sscanf plugin loaded.     
+
+[13:29:24]          Version:  2.8.1        
+
+[13:29:24]    (c) 2012 Alex "Y_Less" Cole  
+
+[13:29:24]  ===============================
+
+[13:29:24]   Loaded.
+[13:29:24]  Loading plugin: profiler
+[13:29:24]   Profiler v2.7.5 is OK.
+[13:29:24]   Loaded.
+[13:29:24]  Loaded 2 plugins.
+
+[13:29:24] 
+[13:29:24] Filterscripts
+[13:29:24] ---------------
+[13:29:24]   Loading filterscript 'CAM.amx'...
+[13:29:24]   Loading filterscript 'npc_record.amx'...
+[13:29:24]   Loaded 2 filterscripts.
+
+[13:29:24] [profiler] Attached profiler to 'gamemodes\WoG.amx' (no debug symbols)
+[13:29:24]  
+[13:29:24]  
+[13:29:24]  
+[13:29:24]  ======================================= 
+[13:29:24]  |                                     | 
+[13:29:24]  |        YSI version 3.09.0684        | 
+[13:29:24]  |        By Alex "Y_Less" Cole        | 
+[13:29:24]  |                                     | 
+[13:29:24]  ======================================= 
+[13:29:24]  
+[13:29:24] AllowAdminTeleport() : function is deprecated. Please see OnPlayerClickMap()
+[13:29:24] ----------------------------------
+[13:29:24] Running Wars Of The Gangs version NEXT 1.0a
+[13:29:24] Created by:	009
+[13:29:24] Protect loaded.
+[13:29:24] Streamer objects loaded.
+[13:29:24] Streamer checkpoints loaded.
+[13:29:24] Streamer icons loaded.
+[13:29:24] Players manager loaded.
+[13:29:24] Groundholds: 14
+[13:29:24] Groundholds loaded.
+[13:29:24] NOW LOADING FROM WoG/world/objects/ls_airport.txt
+[13:29:24] NOW LOADING FROM WoG/world/objects/skroad.txt
+[13:29:24] NOW LOADING FROM WoG/world/objects/big_ramp.txt
+[13:29:24] NOW LOADING FROM WoG/world/objects/big_jump.txt
+[13:29:24] NOW LOADING FROM WoG/world/objects/ls_roller.txt
+[13:29:24] NOW LOADING FROM WoG/world/objects/big_race.txt
+[13:29:24] NOW LOADING FROM WoG/world/objects/sf_race.txt
+[13:29:24] NOW LOADING FROM WoG/world/objects/burda.txt
+[13:29:24] NOW LOADING FROM WoG/world/objects/descent.txt
+[13:29:24] Classes: 286
+[13:29:24] Objects: 1302
+[13:29:24] Vehicles: 1793
+[13:29:24] Objects streamer used
+[13:29:24] Sync time used
+[13:29:24] World loaded.
+[13:29:25] Houses: 639
+[13:29:25] Houses loaded.
+[13:29:25] Businesses: 107
+[13:29:25] Businesses loaded.
+[13:29:25] Admin levels: 3
+[13:29:25] Admin loaded.
+[13:29:25] Banks: 5
+[13:29:25] Banks loaded.
+[13:29:25] Max deathmatches: 10
+[13:29:25] Max spawns: 20
+[13:29:25] Max weapons: 5
+[13:29:25] Deathmatches loaded.
+[13:29:25] Factons Loaded.
+[13:29:25] Max races: 10
+[13:29:25] Max checkpoints: 50
+[13:29:25] Race system loaded.
+[13:29:25] Max gangs: 1000
+[13:29:25] Max gang members: 16
+[13:29:25] Gang cost: 100000
+[13:29:25] Gang zones: 192
+[13:29:25] Gang zones per city: 64
+[13:29:25] Gangs loaded.
+[13:29:25] Team quests: 5
+[13:29:25] Team Quests system loaded.
+[13:29:25] Bosses count: 10
+[13:29:25] Max bosses count: 50
+[13:29:25] Missions types count: 10
+[13:29:25] Missions loaded.
+[13:29:25] Weapons: 3
+[13:29:25] Weapons loaded.
+[13:29:25] Utils loaded.
+[13:29:25] 
+--------------------------------------
+[13:29:25]  Лотерея by Schneider v1.1 Загружена
+[13:29:25] --------------------------------------
+
+[13:29:25] One second timer loaded.
+[13:29:25] Five second timer loaded.
+[13:29:25] Wars Of The Gangs version NEXT 1.0a loaded.
+[13:29:25] ----------------------------------
+[13:29:25] Number of vehicle models: 179
+[13:30:04] [connection] 127.0.0.1:60696 requests connection cookie.
+[13:30:05] [connection] incoming connection: 127.0.0.1:60696 id: 0
+[13:30:06] [join] LukeS has joined the server (0:127.0.0.1)
+[13:30:06] .:: Игрок LukeS подключился к серверу ::. 
+(Unknown, Unknown, Unknown)
+[13:30:13] LukeS[0] saved successfully!
+[13:30:30] LukeS[0] saved successfully!
+[13:30:30] [part] LukeS has left the server (0:1)

@@ -1,0 +1,4 @@
+Coords=2498.408447,-1643.036865,13.782600
+Owner=Unknown
+Name=Ganton 21
+Cost=150000

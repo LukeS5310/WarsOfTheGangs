@@ -1,0 +1,4 @@
+Coords=2224.932617,2521.689208,10.820300
+Owner=LukeS
+Name=Julius Thruway North 94
+Cost=125000

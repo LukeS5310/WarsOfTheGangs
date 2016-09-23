@@ -1,0 +1,12 @@
+Name=Greenies
+Color=866792362
+KillsAll=4
+KillsGangs=4
+Score=48
+Welcome=Äîáðî ïîæàëîâàòü â Greenies! (âû ìîæåòå ñìåíèòü ïðèâåòñòâèå êîìàíäîé /g welcome)
+Reinforces=0
+XPIncome=0
+MoneyIncome=8000
+Capital=44
+GZones=-1
+Leader=noob

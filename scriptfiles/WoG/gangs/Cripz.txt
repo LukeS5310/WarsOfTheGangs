@@ -1,0 +1,12 @@
+Name=Cripz
+Color=-602653526
+KillsAll=0
+KillsGangs=0
+Score=0
+Welcome=Äîáðî ïîæàëîâàòü â Cripz! (âû ìîæåòå ñìåíèòü ïðèâåòñòâèå êîìàíäîé /g welcome)
+Reinforces=1
+XPIncome=79600
+MoneyIncome=91500
+Capital=-1
+GZones=0
+Leader=Vindicator

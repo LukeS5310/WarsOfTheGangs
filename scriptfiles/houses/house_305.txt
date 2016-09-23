@@ -1,0 +1,4 @@
+Coords=2467.600097,-1199.900024,36.799999
+Owner=[OSH]Levar
+Name=East Los Santos 62
+Cost=25000

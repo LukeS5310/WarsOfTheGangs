@@ -1,0 +1,4 @@
+Coords=77.362297,1162.316406,20.940200
+Owner=Alexi_Laiho
+Name=Fort Carson 2
+Cost=250000

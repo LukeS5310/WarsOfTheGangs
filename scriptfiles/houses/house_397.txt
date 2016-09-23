@@ -1,0 +1,4 @@
+Coords=-288.899200,2690.974609,62.812500
+Owner=Noise_Cosc
+Name=Las Payasadas 43
+Cost=125000

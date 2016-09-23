@@ -1,0 +1,4 @@
+Coords=2085.404296,2154.403564,10.820300
+Owner=Leon93
+Name=Redsands East 97
+Cost=25000

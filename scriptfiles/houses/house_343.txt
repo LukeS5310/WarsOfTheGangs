@@ -1,0 +1,4 @@
+Coords=300.232299,-1154.440551,81.390701
+Owner=L.D
+Name=Richman 74
+Cost=300000

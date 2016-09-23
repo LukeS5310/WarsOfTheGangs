@@ -1,0 +1,4 @@
+Coords=-364.538787,1168.780883,19.742200
+Owner=Alexi_Laiho
+Name=Fort Carson 5
+Cost=250000
