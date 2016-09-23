@@ -289,7 +289,7 @@ foreach(new playerid : Player)
 		NotifyAdmins(stmp);
 		NotifyAdmins("\nПримечание: Если сумма небольшая, вероятнее всего игрок пытается играть в казино, что не является читерством");
 	}
-	else if(tmp[1] < tmp[0]) SetPlayerMoney(playerid,tmp[1]);
+	else if(tmp[1] < tmp[0]) SetPlayerMoney(playerid,tmp[0]);
 	
 	
 	
