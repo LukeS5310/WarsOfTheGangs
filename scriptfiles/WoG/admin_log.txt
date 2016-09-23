@@ -382,3 +382,4 @@
 [14:44:15-23:09:2016][CMD] LukeS - givemoney 0 1000
 [14:45:31-23:09:2016][CMD] LukeS - setstatus 0 1
 [14:45:34-23:09:2016][CMD] LukeS - setstatus 0 2
+[14:51:07-23:09:2016][CMD] LukeS - givemoney 0 100000

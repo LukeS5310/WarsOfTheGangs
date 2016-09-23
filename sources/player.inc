@@ -161,9 +161,11 @@ stock SavePlayer(playerid,reason)
 	fwrite(pfile,stmp);
 	format(stmp,sizeof(stmp),"SharpShooting=%d\r\n",GetPVarInt(playerid,"SharpShooting"));
 	fwrite(pfile,stmp);
+	stmp = "";
 	GetPVarString(playerid,"sv_vehdata",stmp,sizeof(stmp));
 	format(stmp,sizeof(stmp),"Vdata=%s\r\n",stmp);
 	fwrite(pfile,stmp);
+	stmp = "";
 	GetPVarString(playerid,"sv_vehmod",stmp,sizeof(stmp));
 	format(stmp,sizeof(stmp),"Vmod=%s\r\n",stmp);
 	fwrite(pfile,stmp);
@@ -277,16 +279,16 @@ stock LoadPlayer(playerid,pass[])
 		{
 		SetPVarString(playerid,"sv_vehdata",stmp[itmp[0] + 1]);
 		new Float:fmcx,Float:fmcy,Float:fmcz,Float:fan,model,k=0,clr1,clr2;//бредовый код, поправить по возможности
-		new dat[150],plat[20];
-		GetPVarString(playerid,"sv_vehdata",dat,sizeof(dat));
-		fmcx = floatstr(strtok(dat,k,','));
-		fmcy = floatstr(strtok(dat,k,','));
-		fmcz = floatstr(strtok(dat,k,','));
-		fan = floatstr(strtok(dat,k,','));
-		model = strval(strtok(dat,k,','));
-		clr1 = strval(strtok(dat,k,','));
-		clr2 = strval(strtok(dat,k,','));
-		format(plat,sizeof(plat),"%s",strtok(dat,k,','));
+		new plat[20];
+		///GetPVarString(playerid,"sv_vehdata",dat,sizeof(dat));
+		fmcx = floatstr(strtok(stmp,k,','));
+		fmcy = floatstr(strtok(stmp,k,','));
+		fmcz = floatstr(strtok(stmp,k,','));
+		fan = floatstr(strtok(stmp,k,','));
+		model = strval(strtok(stmp,k,','));
+		clr1 = strval(strtok(stmp,k,','));
+		clr2 = strval(strtok(stmp,k,','));
+		format(plat,sizeof(plat),"%s",strtok(stmp,k,','));
 		SetPVarInt(playerid,"vid",-1);
 		if(IsValidVehicleModel(model))
 		{

@@ -19,6 +19,7 @@
 #define MAX_CHEAT_MONEY			500
 #define MAX_NOOB_KILL_REASONS	2
 #define MAX_MONEY				2_000_000_000
+#define MONEY_ALLOWED_DECREASE	10_000
 // check functions
 #if !defined GetWeaponSlot
 	#error GetWeaponSlot not found in script.
@@ -265,7 +266,7 @@ if(PTick>1)
 		PTick=0;
 		Protect_Update();
 	}
-	PTick++;
+PTick++;
 }
 
 Protect_Update()
@@ -284,13 +285,13 @@ foreach(new playerid : Player)
 	tmp[1] = GetPlayerMoney(playerid);
 	if(tmp[1] > tmp[0]) 
 	{
-		SetPlayerMoney(playerid,tmp[0]);
+		oSetPlayerMoney(playerid,tmp[0]);
 		format(stmp,sizeof(stmp),"Несанкционированная попытка Игрока %s изменить свой баланс на %d $ завершилась неудачей, баланс возвращен в исходное состояние",oGetPlayerName(playerid),tmp[1]-tmp[0]);
 		NotifyAdmins(stmp);
 		NotifyAdmins("\nПримечание: Если сумма небольшая, вероятнее всего игрок пытается играть в казино, что не является читерством");
 	}
-	else if(tmp[1] < tmp[0]) SetPlayerMoney(playerid,tmp[0]);
-	
+	else if(tmp[1] + MONEY_ALLOWED_DECREASE < tmp[0]) oSetPlayerMoney(playerid,tmp[0]);
+	else if(tmp[1] + MONEY_ALLOWED_DECREASE > tmp[1]) oSetPlayerMoney(playerid,tmp[1]);
 	
 	
 	

@@ -13,8 +13,9 @@
 
 TODO:
 Bugfixes
-Localization
 race finalization
+фиксы в тюнинге загруженного личного ТС(!)
+фиксы со скином игрока при тимквестах(!)
 
 */
 
@@ -902,6 +903,8 @@ public OnVehicleMod(playerid, vehicleid, componentid)
 
 public OnVehiclePaintjob(playerid, vehicleid, paintjobid)
 {
+	format(stmp,sizeof(stmp),"PJOBCHANGE TO %d", paintjobid);
+	SendClientMessage(playerid, COLOR_RED, stmp);
 	return 1;
 }
 
