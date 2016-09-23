@@ -98,7 +98,7 @@ forward FiveSecTimer();
 forward OnCameraReachNode(playerid, camera, node);
 // mode info
 #define MODE_NAME	            	"Wars Of The Gangs"
-#define MODE_VERSION            	"NEXT 1.0a"
+#define MODE_VERSION            	"NEXT 0.9a"
 #define MODE_DIR                	"WoG/"
 // settings
 #define PRINT_STATS_DATA
