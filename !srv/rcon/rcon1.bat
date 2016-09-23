@@ -1,0 +1,1 @@
+rcon.exe 217.116.128.15 9999 g17highprotect players
