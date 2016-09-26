@@ -905,6 +905,9 @@ public OnVehiclePaintjob(playerid, vehicleid, paintjobid)
 {
 	format(stmp,sizeof(stmp),"PJOBCHANGE TO %d", paintjobid);
 	SendClientMessage(playerid, COLOR_RED, stmp);
+	#if defined _utils_included 
+	SetVehiclePaintJob(vehicleid,paintjobid);
+	#endif
 	return 1;
 }
 

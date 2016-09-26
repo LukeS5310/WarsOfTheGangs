@@ -48,7 +48,7 @@ forward Float:GetDistanceBetweenPlayers(playerid,targetplayerid);
 // --------------------------------------------------
 // news
 // --------------------------------------------------
-static LastTPS;
+static LastTPS, VPJob[MAX_VEHICLES];
 
 stock FormatedMsgString[MAX_FORMATED_STRING];
 stock PlayerVehicle[][] = {
@@ -671,6 +671,8 @@ stock GetVehicleModelByType(type)
 Utils_OnGameModeInit()
 {
 print("Utils loaded.");
+
+VehiclePaintJobInit();
 }
 Utils_OnPlayerEnterVehicle(playerid,vehid)
 {
@@ -757,7 +759,7 @@ for(new i=0;i<itmp[0] ;i++)
 //printf("CHECK IS %s ",output );
 return output;
 }
-ConvertSecMins(secs)
+stock ConvertSecMins(secs)
 {
 new tmp[12];
 itmp[1]=secs/60; //minutes
@@ -767,11 +769,32 @@ secs=secs-itmp[1]*60;
 format(tmp,sizeof(tmp),"%02d:%02d",itmp[1],secs);
 return tmp;
 }
-IsNight()
+stock IsNight()
 {
 new Hour,Minut;
 gettime(Hour,Minut);
 if(Hour>=21) return 1;
 if(Hour<7) return 1;
 return 0;
+}
+
+stock SetVehiclePaintJob(vehicleid,PJid)
+{
+	VPJob[vehicleid] = PJid;
+	ChangeVehiclePaintjob(vehicleid,PJid);
+	return 1;
+}
+
+stock GetVehiclePaintJob(vehicleid)
+{
+	return VPJob[vehicleid];
+}
+stock VehiclePaintJobInit()
+{
+	for(new i = 0;i<MAX_VEHICLES;i++)
+	{
+		VPJob[i] = 255;
+	}
+	print("Paintjobs hook is up.");
+	return 1;
 }

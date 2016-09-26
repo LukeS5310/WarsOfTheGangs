@@ -278,7 +278,7 @@ stock LoadPlayer(playerid,pass[])
 		if(!strcmp(stmp,"Vdata",true,itmp[0])) 
 		{
 		SetPVarString(playerid,"sv_vehdata",stmp[itmp[0] + 1]);
-		new Float:fmcx,Float:fmcy,Float:fmcz,Float:fan,model,k=0,clr1,clr2;//бредовый код, поправить по возможности
+		new Float:fmcx,Float:fmcy,Float:fmcz,Float:fan,model,k=0,clr1,clr2,pjob;//бредовый код, поправить по возможности
 		new plat[20];
 		///GetPVarString(playerid,"sv_vehdata",dat,sizeof(dat));
 		fmcx = floatstr(strtok(stmp,k,','));
@@ -288,16 +288,18 @@ stock LoadPlayer(playerid,pass[])
 		model = strval(strtok(stmp,k,','));
 		clr1 = strval(strtok(stmp,k,','));
 		clr2 = strval(strtok(stmp,k,','));
+		pjob = strval(strtok(stmp,k,','));
 		format(plat,sizeof(plat),"%s",strtok(stmp,k,','));
 		SetPVarInt(playerid,"vid",-1);
 		if(IsValidVehicleModel(model))
 		{
 			// create vehicle	
-		SetPVarInt(playerid,"vid",AddStaticVehicle(model,fmcx,fmcy,fmcz,fan,clr1,clr2));
+		SetPVarInt(playerid,"vid",CreateVehicle(model,fmcx,fmcy,fmcz,fan,clr1,clr2,-1));
 		new vid=GetPVarInt(playerid,"vid");
 		vowner{vid}=playerid;
 		col1{vid}=clr1;
 		col2{vid}=clr2;
+		SetVehiclePaintJob(vid,pjob);
 		SetVehicleNumberPlate(GetPVarInt(playerid,"vid"),plat);
 		//SendClientMessageToAll(COLOR_WHITE,"СОЗДАНО");
 		}
@@ -331,7 +333,7 @@ stock LoadPlayer(playerid,pass[])
 }
 CreateSavedVehicle(playerid)
 {
-new Float:fmcx,Float:fmcy,Float:fmcz,Float:fan,model,k=0,clr1,clr2;
+new Float:fmcx,Float:fmcy,Float:fmcz,Float:fan,model,k=0,clr1,clr2,pjob;
 new dat[150],mod[100],plat[20];
 GetPVarString(playerid,"sv_vehdata",dat,sizeof(dat));
 fmcx = floatstr(strtok(dat,k,','));
@@ -341,15 +343,18 @@ fan = floatstr(strtok(dat,k,','));
 model = strval(strtok(dat,k,','));
 clr1 = strval(strtok(dat,k,','));
 clr2 = strval(strtok(dat,k,','));
+pjob = strval(strtok(dat,k,','));
 format(plat,sizeof(plat),"%s",strtok(dat,k,','));
 //SetPVarInt(playerid,"vid",-1);
 DestroyVehicle(GetPVarInt(playerid,"vid"));
 if(IsValidVehicleModel(model))
 {
 	// create vehicle	
-SetPVarInt(playerid,"vid",CreateVehicle(model,fmcx,fmcy,fmcz,fan,clr1,clr2,1200));
+SetPVarInt(playerid,"vid",CreateVehicle(model,fmcx,fmcy,fmcz,fan,clr1,clr2,-1));
+
 new vid=GetPVarInt(playerid,"vid");
-GetPVarString(vowner{vid},"sv_vehmod",mod,sizeof(mod));
+SetVehiclePaintJob(vid,pjob);
+GetPVarString(playerid,"sv_vehmod",mod,sizeof(mod));
 vowner{vid}=playerid;
 col1{vid}=clr1;
 col2{vid}=clr2;
@@ -366,6 +371,7 @@ return 1;
 }
 OnSavedCarResp(vehicleid)
 {
+SetVehiclePaintJob(vehicleid,GetVehiclePaintJob(vehicleid));
 GetPVarString(vowner{vehicleid},"sv_vehmod",stmp,sizeof(stmp));
 for(new i=0;i<14;i++)
 			{
@@ -1534,7 +1540,7 @@ Player_Command(playerid,cmdid,params[])
 		    GetVehicleZAngle(GetPlayerVehicleID(playerid),ang);
 			new vehid=GetPlayerVehicleID(playerid);
 			mod=GetVehicleModel(vehid);
-			format(str,sizeof(str),"%f,%f,%f,%f,%d,%d,%d,%s",x,y,z,ang,mod,col1{vehid},col2{vehid},params);
+			format(str,sizeof(str),"%f,%f,%f,%f,%d,%d,%d,%d,%s",x,y,z,ang,mod,col1{vehid},col2{vehid},GetVehiclePaintJob(vehid),params);
 			SetPVarString(playerid,"sv_vehdata",str);
 			//get mods
 			strdel(str,0,100);
@@ -1547,6 +1553,7 @@ Player_Command(playerid,cmdid,params[])
 			//SendClientMessageToAll(COLOR_WHITE,str);
 			SetPVarString(playerid,"sv_vehmod",str);
 			SetVehicleToRespawn(vehid);
+			SavePlayer(playerid, SAVE_REASON_SAVECHAR);
 			CreateSavedVehicle(playerid);
 			//OnSavedCarResp(GetPVarInt(playerid,"vid"));
 			SendClientMessage(playerid,COLOR_BLUE,"Машина сохранена");
