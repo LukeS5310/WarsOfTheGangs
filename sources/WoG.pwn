@@ -15,7 +15,9 @@ TODO:
 Bugfixes
 race finalization
 фиксы в тюнинге загруженного личного ТС(!)
-фиксы со скином игрока при тимквестах(!)
+фиксы со скином игрока при тимквестах(!)- done
+
+
 
 */
 
@@ -99,7 +101,7 @@ forward FiveSecTimer();
 forward OnCameraReachNode(playerid, camera, node);
 // mode info
 #define MODE_NAME	            	"Wars Of The Gangs"
-#define MODE_VERSION            	"NEXT 0.9a"
+#define MODE_VERSION            	"0.9b"
 #define MODE_DIR                	"WoG/"
 // settings
 #define PRINT_STATS_DATA
@@ -905,6 +907,9 @@ public OnVehiclePaintjob(playerid, vehicleid, paintjobid)
 {
 	format(stmp,sizeof(stmp),"PJOBCHANGE TO %d", paintjobid);
 	SendClientMessage(playerid, COLOR_RED, stmp);
+	#if defined _utils_included 
+	SetVehiclePaintJob(vehicleid,paintjobid);
+	#endif
 	return 1;
 }
 
