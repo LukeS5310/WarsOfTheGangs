@@ -1139,3 +1139,148 @@ v0.3.7-R2, (C)2005-2015 SA-MP Team
 [12:36:12] LukeS[0] saved successfully!
 [12:36:32] LukeS[0] saved successfully!
 [12:36:32] [part] LukeS has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[09:37:49] 
+[09:37:49] Server Plugins
+[09:37:49] --------------
+[09:37:49]  Loading plugin: sscanf
+[09:37:49] 
+
+[09:37:49]  ===============================
+
+[09:37:49]       sscanf plugin loaded.     
+
+[09:37:49]          Version:  2.8.1        
+
+[09:37:49]    (c) 2012 Alex "Y_Less" Cole  
+
+[09:37:49]  ===============================
+
+[09:37:49]   Loaded.
+[09:37:49]  Loading plugin: profiler
+[09:37:49]   Profiler v2.7.5 is OK.
+[09:37:49]   Loaded.
+[09:37:49]  Loaded 2 plugins.
+
+[09:37:49] 
+[09:37:49] Filterscripts
+[09:37:49] ---------------
+[09:37:49]   Loading filterscript 'CAM.amx'...
+[09:37:49]   Loading filterscript 'npc_record.amx'...
+[09:37:49]   Loaded 2 filterscripts.
+
+[09:37:49] [profiler] Attached profiler to 'gamemodes\WoG.amx' (no debug symbols)
+[09:37:49]  
+[09:37:49]  
+[09:37:49]  
+[09:37:49]  ======================================= 
+[09:37:49]  |                                     | 
+[09:37:49]  |        YSI version 3.09.0684        | 
+[09:37:49]  |        By Alex "Y_Less" Cole        | 
+[09:37:49]  |                                     | 
+[09:37:49]  ======================================= 
+[09:37:49]  
+[09:37:49] AllowAdminTeleport() : function is deprecated. Please see OnPlayerClickMap()
+[09:37:49] ----------------------------------
+[09:37:49] Running Wars Of The Gangs version NEXT 0.9a
+[09:37:49] Created by:	009
+[09:37:49] Protect loaded.
+[09:37:49] Streamer objects loaded.
+[09:37:49] Streamer checkpoints loaded.
+[09:37:49] Streamer icons loaded.
+[09:37:49] Players manager loaded.
+[09:37:49] Groundholds: 14
+[09:37:49] Groundholds loaded.
+[09:37:49] NOW LOADING FROM WoG/world/objects/ls_airport.txt
+[09:37:49] NOW LOADING FROM WoG/world/objects/skroad.txt
+[09:37:49] NOW LOADING FROM WoG/world/objects/big_ramp.txt
+[09:37:49] NOW LOADING FROM WoG/world/objects/big_jump.txt
+[09:37:49] NOW LOADING FROM WoG/world/objects/ls_roller.txt
+[09:37:50] NOW LOADING FROM WoG/world/objects/big_race.txt
+[09:37:50] NOW LOADING FROM WoG/world/objects/sf_race.txt
+[09:37:50] NOW LOADING FROM WoG/world/objects/burda.txt
+[09:37:50] NOW LOADING FROM WoG/world/objects/descent.txt
+[09:37:50] Classes: 286
+[09:37:50] Objects: 1302
+[09:37:50] Vehicles: 1793
+[09:37:50] Objects streamer used
+[09:37:50] Sync time used
+[09:37:50] World loaded.
+[09:37:50] Houses: 639
+[09:37:50] Houses loaded.
+[09:37:50] Businesses: 107
+[09:37:50] Businesses loaded.
+[09:37:50] Admin levels: 3
+[09:37:50] Admin loaded.
+[09:37:50] Banks: 5
+[09:37:50] Banks loaded.
+[09:37:50] Max deathmatches: 10
+[09:37:50] Max spawns: 20
+[09:37:50] Max weapons: 5
+[09:37:50] Deathmatches loaded.
+[09:37:50] Factons Loaded.
+[09:37:50] Max races: 10
+[09:37:50] Max checkpoints: 50
+[09:37:50] Race system loaded.
+[09:37:50] Max gangs: 1000
+[09:37:50] Max gang members: 16
+[09:37:50] Gang cost: 100000
+[09:37:50] Gang zones: 192
+[09:37:50] Gang zones per city: 64
+[09:37:50] Gangs loaded.
+[09:37:50] Team quests: 5
+[09:37:50] Team Quests system loaded.
+[09:37:50] Bosses count: 10
+[09:37:50] Max bosses count: 50
+[09:37:50] Missions types count: 10
+[09:37:50] Missions loaded.
+[09:37:50] Weapons: 3
+[09:37:50] Weapons loaded.
+[09:37:50] Utils loaded.
+[09:37:50] Paintjobs hook is up.
+[09:37:50] 
+--------------------------------------
+[09:37:50]  Лотерея by Schneider v1.1 Загружена
+[09:37:50] --------------------------------------
+
+[09:37:50] One second timer loaded.
+[09:37:50] Five second timer loaded.
+[09:37:50] Wars Of The Gangs version NEXT 0.9a loaded.
+[09:37:50] ----------------------------------
+[09:37:50] Number of vehicle models: 179
+[09:38:32] [connection] 127.0.0.1:53076 requests connection cookie.
+[09:38:33] [connection] incoming connection: 127.0.0.1:53076 id: 0
+[09:38:33] [join] LukeS has joined the server (0:127.0.0.1)
+[09:38:33] .:: Игрок LukeS подключился к серверу ::. 
+(Unknown, Unknown, Unknown)
+[09:40:02] LukeS[0] saved successfully!
+[09:42:14] LukeS[0] saved successfully!
+[09:42:44] LukeS[0] saved successfully!
+[09:42:44] [part] LukeS has left the server (0:1)
+[09:43:02] [connection] 127.0.0.1:64089 requests connection cookie.
+[09:43:03] [connection] incoming connection: 127.0.0.1:64089 id: 0
+[09:43:04] [join] LukeS has joined the server (0:127.0.0.1)
+[09:43:04] .:: Игрок LukeS подключился к серверу ::. 
+(Unknown, Unknown, Unknown)
+[09:44:26] LukeS[0] saved successfully!
+[09:46:39] LukeS[0] saved successfully!
+[09:48:52] LukeS[0] saved successfully!
+[09:50:36] [death] LukeS died 255
+[09:50:48] [death] LukeS died 255
+[09:51:05] LukeS[0] saved successfully!
+[09:52:50] [death] LukeS died 255
+[09:53:18] LukeS[0] saved successfully!
+[09:55:31] LukeS[0] saved successfully!
+[09:57:44] LukeS[0] saved successfully!
+[09:59:53] LukeS[0] saved successfully!
+[10:02:06] LukeS[0] saved successfully!
+[10:02:45] LukeS[0] saved successfully!
+[10:02:45] [part] LukeS has left the server (0:1)

@@ -152,7 +152,7 @@ static
 	TeamQuestTime[MAX_TEAM_QUESTS],
 	TeamQuestQuest[MAX_TEAM_QUESTS],
 	TeamQuestTmp[MAX_TEAM_QUESTS][10];
-static oldskin[MAX_PLAYERS];	
+//static oldskin[MAX_PLAYERS];	
 // spawns
 static Float:TeamQuest_RK_Spawns[2][MAX_RK_SPAWNS][3] = 
 {
@@ -1009,8 +1009,8 @@ stock TeamQuestComplete(tqid,reason)
 				if(IsPlayerNPC(playerid)) continue;
 				if(GetPlayerQuest(playerid) != TeamQuestQuest[tqid]) continue;
 
-				SetPVarInt(playerid,"Skin",oldskin[playerid]);
-				SetPlayerSkin(playerid,oldskin[playerid]);	
+				//SetPVarInt(playerid,"Skin",oldskin[playerid]);
+				//SetPlayerSkin(playerid,oldskin[playerid]);	
 				TeamQuestPlayerCurrent{playerid} = INVALID_TEAM_QUEST_ID;
 				SetPlayerQuest(playerid,INVALID_QUEST_ID);
 				if(TeamQuestStatus{tqid} != TEAM_QUEST_STATUS_LINEUP)
@@ -1151,8 +1151,8 @@ stock PlayerLeaveTeamQuest(playerid,tqid,reason)
 	TeamQuestPlayerCurrent{playerid} = INVALID_TEAM_QUEST_ID;
 	SetPlayerQuest(playerid,INVALID_QUEST_ID);
 	DisablePlayerCheckpoint(playerid);
-	SetPVarInt(playerid,"Skin",oldskin[playerid]);
-	SetPlayerSkin(playerid,oldskin[playerid]);
+	//SetPVarInt(playerid,"Skin",oldskin[playerid]);
+	//SetPlayerSkin(playerid,oldskin[playerid]);
 	TogglePlayerCheckpointStreamer(playerid,1);
 	SendClientMessage(playerid,TEAM_QUESTS_COLOR,"Вы покинули Team Quest");
 	switch(reason)
@@ -1319,7 +1319,7 @@ TeamQuest_OnPlayerSpawn(playerid)
 			if(tqid != TEAM_QUEST_TN) SetPlayerVirtualWorld(playerid,TEAM_QUEST_VIRTUAL_WORLD + tqid);
 			else SetPlayerVirtualWorld(playerid,0); // Treasure of nation in global world
 			ResetPlayerWeapons(playerid);
-			oldskin[playerid]=GetPVarInt(playerid,"Skin");
+			//oldskin[playerid]=GetPVarInt(playerid,"Skin");
 			oSetPlayerHealth(playerid,100.0);
 			oSetPlayerArmour(playerid,100.0);
 			SetPlayerSkin(playerid,TeamQuests[tqid][tq_team_skin][team]);

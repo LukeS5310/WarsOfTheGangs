@@ -891,7 +891,8 @@ Player_OnPlayerSpawn(playerid)
 		}
 	if(GetPlayerQuest(playerid) == INVALID_QUEST_ID)
 	{
-		SetPVarInt(playerid,"Skin",GetPlayerSkin(playerid));
+		//SetPVarInt(playerid,"Skin",GetPlayerSkin(playerid));
+		SetPlayerSkin(playerid, GetPVarInt(playerid, "Skin"));
 		oSetPlayerHealth(playerid,100.0);
 		SetPlayerArmour(playerid,GetPVarFloat(playerid,"Armor"));
 		SetPlayerScore(playerid,GetPVarInt(playerid,"Level"));
