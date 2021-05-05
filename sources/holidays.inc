@@ -17,7 +17,7 @@
 #define GIFT_UPDATE_TICK 		60*30 //раз в полчаса обновляется подарок
 #define FB_FILE				"memories.txt"
 #define NIGHTMARE_END			480
-new n_tick=0, bool:Happened;
+new gift,hol_tick=0,n_tick=0, bool:Happened;
 Holidays_OnGameModeInit()
 {
 CheckNY();
@@ -45,7 +45,7 @@ if(itmp[2]>1&& itmp[1]==11)
 }
 return 0;
 }
-/*Holidays_tick()
+Holidays_tick()
 {
 if(hol_tick==0)
 {
@@ -56,7 +56,6 @@ hol_tick=GIFT_UPDATE_TICK;
 hol_tick--;
 return 1;
 }
-*/
 Nightmare_tick() //5 SEC
 {
 if(n_tick==NIGHTMARE_END) n_tick=0;

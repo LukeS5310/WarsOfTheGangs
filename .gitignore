@@ -46,7 +46,8 @@ Network Trash Folder
 Temporary Items
 .apdisk
 server_log.txt
-server_log.txt
 gamemodes/WoG.amx
-*.amx
 server_log.txt
+gamemodes/WoG-profile.html
+gamemodes/WoG-calls.gv
+crashinfo.txt
