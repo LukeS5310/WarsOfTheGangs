@@ -23,6 +23,7 @@ new Text:txtTimeDisp;
 #define OBJECTS_FILE			"objects.txt"
 #define VEHICLES_FILE			"vehicles.txt"
 #define SELECT_CLASS_INTERIOR	0
+#define TIMEZONE_OFFSET			3  //offset is made regarding your local time, not UTC
 #define SELECT_CLASS_POS		1476.4343,-1665.8435,14.5532
 //#define SELECT_CLASS_POS		-1637.898315,-2239.265136,31.476562
 #define SELECT_CLASS_ANGLE		360
@@ -71,6 +72,7 @@ public sync_Time()
 	new Hour,Minut;
     new timestr[32];
 	gettime(Hour,Minut);
+	Hour += TIMEZONE_OFFSET;
 	SetWorldTime(Hour);
 	format(timestr,32,"%02d:%02d",Hour,Minut);
 	TextDrawSetString(txtTimeDisp,timestr);
