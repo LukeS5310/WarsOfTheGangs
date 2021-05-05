@@ -13,11 +13,10 @@
 
 TODO:
 Bugfixes
+Localization
 race finalization
 фиксы в тюнинге загруженного личного ТС(!)
 фиксы со скином игрока при тимквестах(!)- done
-
-
 
 */
 
@@ -101,7 +100,7 @@ forward FiveSecTimer();
 forward OnCameraReachNode(playerid, camera, node);
 // mode info
 #define MODE_NAME	            	"Wars Of The Gangs"
-#define MODE_VERSION            	"0.9b"
+#define MODE_VERSION            	"NEXT 1.0a"
 #define MODE_DIR                	"WoG/"
 // settings
 #define PRINT_STATS_DATA
