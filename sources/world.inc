@@ -72,7 +72,7 @@ public sync_Time()
 	new Hour,Minut;
     new timestr[32];
 	gettime(Hour,Minut);
-	Hour += TIMEZONE_OFFSET;
+	Hour = GetHourSummed(Hour,TIMEZONE_OFFSET);
 	SetWorldTime(Hour);
 	format(timestr,32,"%02d:%02d",Hour,Minut);
 	TextDrawSetString(txtTimeDisp,timestr);
@@ -87,6 +87,15 @@ public sync_Time()
 // --------------------------------------------------
 // stocks
 // --------------------------------------------------
+stock GetHourSummed(currentHour,offset)
+{
+	new resultHour = currentHour+offset;
+	if(resultHour > 23)
+		return resultHour-24;
+	else if(resultHour < 0)
+		return resultHour+24;
+	return resultHour;
+}
 stock LoadObjectsFromFile(filename[],VirtualWorld=0)
 {
 	printf("NOW LOADING FROM %s",filename);
