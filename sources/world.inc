@@ -76,7 +76,6 @@ public sync_Time()
 	SetWorldTime(Hour);
 	format(timestr,32,"%02d:%02d",Hour,Minut);
 	TextDrawSetString(txtTimeDisp,timestr);
-	//for(new playerid = 0;playerid <= GetPlayersCount();playerid++)
 	foreach(new playerid : Player)
 	{
 		SetPlayerTime(playerid,Hour,Minut);
