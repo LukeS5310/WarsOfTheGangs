@@ -31,7 +31,6 @@
 static 
 	/*Float:old_coord[MAX_PLAYERS][3],*/
 	NoobKillReasons[MAX_PLAYERS char];
-new PTick;
 new 
 	IsPlayerSpawned[MAX_PLAYERS char];
 // --------------------------------------------------
@@ -194,7 +193,7 @@ stock oGivePlayerMoney(playerid,money)
 		SendClientMessage(playerid,COLOR_BLUE,"” вас максимальное количество денег!");
 	}
 	SetPVarInt(playerid,"AC_Money",GetPVarInt(playerid,"AC_Money") + money);
-	//GivePlayerMoney(playerid,money);
+	GivePlayerMoney(playerid,money);
 	return 1;
 }
 
@@ -261,12 +260,7 @@ Protect_OnPlayerUpdate(playerid)
 }
 Protect_tick()
 {
-if(PTick>1)
-	{
-		PTick=0;
 		Protect_Update();
-	}
-PTick++;
 }
 
 Protect_Update()
@@ -280,18 +274,9 @@ foreach(new playerid : Player)
 	if(!IsPlayerConnected(playerid)) continue;
 	if(IsPlayerNPC(playerid)) continue;
 	
-	//ќбновление античита со скоростью OnPlayerUpdate приводит к тому что PVar не успевает присвоитьс€, и деньги откатываютс€ в любом случае, 1 секунда должна работать лучше(увеличено до 2)
 	tmp[0] = oGetPlayerMoney(playerid);
 	tmp[1] = GetPlayerMoney(playerid);
-	if(tmp[1] > tmp[0]) 
-	{
-		oSetPlayerMoney(playerid,tmp[0]);
-		format(stmp,sizeof(stmp),"Ќесанкционированна€ попытка »грока %s изменить свой баланс на %d $ завершилась неудачей, баланс возвращен в исходное состо€ние",oGetPlayerName(playerid),tmp[1]-tmp[0]);
-		NotifyAdmins(stmp);
-		NotifyAdmins("\nѕримечание: ≈сли сумма небольша€, веро€тнее всего игрок пытаетс€ играть в казино, что не €вл€етс€ читерством");
-	}
-	else if(tmp[1] + MONEY_ALLOWED_DECREASE < tmp[0]) oSetPlayerMoney(playerid,tmp[0]);
-	else if(tmp[1] + MONEY_ALLOWED_DECREASE > tmp[1]) oSetPlayerMoney(playerid,tmp[1]);
+	//TODO - rework the money checking logic because current is not working properly
 	
 	
 	

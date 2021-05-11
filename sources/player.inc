@@ -429,7 +429,7 @@ stock ChangeStatByNameInt(name[],stat[],data,type)
 		if(!fexist(stmp))
 		{
 		print("DEBUG:load unsuccesful! skipping...");
-		goto end;
+		return;
 		}
 	
 		new File:pfile = fopen(stmp,io_read);
@@ -463,7 +463,6 @@ stock ChangeStatByNameInt(name[],stat[],data,type)
 		// delete temp
 		fremove("temp");
 		print("DEBUG:load succesful!");
-		end:
 	}
 }
 
@@ -1221,7 +1220,7 @@ Player_Dialog(playerid,dialogid,response,listitem,inputtext[])
 						}
 					
 				}
-				case 16: //SharpShooting /+1% к хэдшоту с любого оружия и +10% к хэдшоту со снайперки за уровень
+				case 16: //SharpShooting 
 				{	
 					if(GetPVarInt(playerid,"UpgradesPoints")<2) return SendClientMessage(playerid, COLOR_LIGHTRED,"Требуется 2 очка прокачки на этот навык!");
 					if((itmp[1] = GetPVarInt(playerid,"SharpShooting")) < 10)
@@ -1445,30 +1444,23 @@ Player_Command(playerid,cmdid,params[])
         }
         case PLAYER_ADMINS_CMD:
         {
-		    //new string[MAX_STRING];
-		    //new idsa = 0;
 			itmp[1]=0;
 		    SendClientMessage(playerid, COLOR_WHITE,"Администрация онлайн");
-			//new mpl=GetMaxPlayers();
-			//for(new adm = 0;adm < mpl;adm++)
 			foreach(new adm : Player)
 			{
-			 //if(IsPlayerAdmin(playerid)) continue;
-			 //if(!IsPlayerConnected(adm))continue;
-	         //if(IsPlayerAdmin(adm)) continue;
 			 if(GetPVarInt(adm,"AdminLevel") == 0) continue;
 			 format(stmp, sizeof(stmp), "%s" , oGetPlayerName(adm), adm);
 			 SendClientMessage(playerid, COLOR_LIGHTBLUE,stmp);
 			 itmp[1]++;
 			} 
-		    if(itmp[1] == 0) SendClientMessage(playerid, COLOR_GREY,"Сейчас ни одного админа/модера нет, но это не значит что они не следят за вами");
+		    if(itmp[1] == 0) SendClientMessage(playerid, COLOR_GREY,"Сейчас ни одного админа/модера нет, но это не значит что они не следят за вами...");
 			format(stmp, sizeof(stmp), "игрок %s Посмотрел список админов" , oGetPlayerName(playerid),playerid);
 			NotifyAdmins(stmp);
 		    return 1;
 	    }
 		case PLAYER_SKYDIVE_CMD:
 		{
-		SendClientMessage(playerid,COLOR_LIGHTGREEN,"Вы прыгнули с парашютом. Удачного полета =)");
+		SendClientMessage(playerid,COLOR_LIGHTGREEN,"Вы прыгнули с парашютом. Удачного полета! =)");
 		GivePlayerWeapon(playerid,46,1);
 		new Float:X,Float:Y,Float:Z;
 		GetPlayerPos(playerid,X,Y,Z);
@@ -1478,7 +1470,6 @@ Player_Command(playerid,cmdid,params[])
 		case PLAYER_PLATE_CMD:
 		{
 		 new idx=0;
-		 //new params[12];
 		 new res[200];
 		 res = strtok(params, idx);
 		 if(strlen(res) == 0) return SendClientMessage(playerid,COLOR_BLUE,"Пример использования: /plate номер");
@@ -1525,7 +1516,6 @@ Player_Command(playerid,cmdid,params[])
 				}
 				fclose(datafile);
 				}
-			//format(stmp,sizeof(stmp),"Отключить радио\nРадио ULTRA\nROCK FM\nНАШЕ Радио\nРадио MAXIMUM(недоступно)");
 			ShowPlayerDialog(playerid,DIALOG_RADIO,DIALOG_STYLE_LIST,"Радиостанции",stmp,"Настроиться","Отмена");
 			}
 		else SendClientMessage(playerid,COLOR_WHITE,"Вы не в машине");
@@ -1652,10 +1642,7 @@ Player_OnPlayerTakeDamage(playerid, issuerid, Float: amount, weaponid, bodypart)
     {
 		if(random(101)<GetWeapCritMod(weaponid)*GetPVarInt(issuerid,"SharpShooting"))
 		{
-		//PlayerPlaySound(issuerid, 1130, 0.0, 0.0, 0.0)
-        // One shot to the head to kill with sniper rifle
         SetPlayerHealth(playerid, 0.0);
-		//format(stmp,sizeof(stmp),"{%06x} HEADSHOT!",COLOR_RED>>>8);
 		GameTextForPlayer(issuerid, "~r~ HEADSHOT!", 2000, 3);
 		}
     }
@@ -1666,6 +1653,16 @@ Player_OnPlayerTakeDamage(playerid, issuerid, Float: amount, weaponid, bodypart)
 
 GetWeapCritMod(weaponid)
 {
-if(weaponid == 34) return 5;
+switch(weaponid)
+	{
+		case 34:
+			return 5; //Sniper rifle
+		case 33:
+			return 4; //Country rifle
+		case 24:
+			return 3; //Desert eagle
+		case 23:
+			return 2; //Silenced 9mm
+	}
 return 1;
 }

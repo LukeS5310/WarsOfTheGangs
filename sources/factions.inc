@@ -887,38 +887,19 @@ switch(dialogid)
 		new neoncolor;
 		switch(listitem)
 			{
-				case 0:
-					{
+				case 0: 
 					neoncolor=18648; //blue
-					goto install;
-					}
-				case 1:
-					{
+				case 1: 
 					neoncolor=18647; //red
-					goto install;
-					}
-				case 2:
-					{
+				case 2: 
 					neoncolor=18649; //green
-					goto install;
-					}
-				case 3:
-					{
+				case 3: 
 					neoncolor=18650; //yellow
-					goto install;
-					}
-				case 4:
-					{
+				case 4: 
 					neoncolor=18651; //pink
-					goto install;
-					}
-				case 5:
-					{
+				case 5: 
 					neoncolor=18652; //white
-					goto install;
-					}
 			}
-		install:
 		if(neon{playerid}!=0 && neon2{playerid}!=0)
 			{
 			DestroyObject(neon{playerid});
@@ -928,51 +909,45 @@ switch(dialogid)
 		VehNeon{itmp[0]}=playerid;	
 		neon{playerid}=CreateObject(neoncolor,0,0,0,0,0,0,283);
 		neon2{playerid}=CreateObject(neoncolor,0,0,0,0,0,0,283);
-		//printf("id1:%d id2:%d",neon{playerid},neon2{playerid});
-		if(itmp[1]== 558) //URANUS
+		switch(itmp[1])
 			{
-			AttachObjectToVehicle(neon{playerid},itmp[0],0.8,0,-0.48,0,0,0);
-			AttachObjectToVehicle(neon2{playerid},itmp[0],-0.8,0,-0.48,0,0,0);
-			goto end;
+				case 558: //URANUS HAHA
+				{
+					AttachObjectToVehicle(neon{playerid},itmp[0],0.8,0,-0.48,0,0,0);
+					AttachObjectToVehicle(neon2{playerid},itmp[0],-0.8,0,-0.48,0,0,0);
+				}
+				case 560: //SULTAN
+				{
+					AttachObjectToVehicle(neon{playerid},itmp[0],0.82,0,-0.50,0,0,0);
+					AttachObjectToVehicle(neon2{playerid},itmp[0],-0.82,0,-0.50,0,0,0);
+					print("do a sultan way");
+				}
+				case 559: //JESTER
+				{
+					AttachObjectToVehicle(neon{playerid},itmp[0],0.82,0,-0.50,0,0,0);
+					AttachObjectToVehicle(neon2{playerid},itmp[0],-0.82,0,-0.50,0,0,0);
+				}
+				case 561: //STRATUM
+				{
+					AttachObjectToVehicle(neon{playerid},itmp[0],0.8,0,-0.65,0,0,0);
+					AttachObjectToVehicle(neon2{playerid},itmp[0],-0.8,0,-0.65,0,0,0);
+				}
+				case 562: //ELEGY
+				{
+					AttachObjectToVehicle(neon{playerid},itmp[0],0.82,0,-0.50,0,0,0);
+					AttachObjectToVehicle(neon2{playerid},itmp[0],-0.82,0,-0.50,0,0,0);
+				}
+				case 565:
+				{
+					AttachObjectToVehicle(neon{playerid},itmp[0],0.82,0,-0.50,0,0,0);
+					AttachObjectToVehicle(neon2{playerid},itmp[0],-0.82,0,-0.50,0,0,0);
+				}
+				default:
+				{
+					AttachObjectToVehicle(neon{playerid},itmp[0],0.8,0,-0.60,0,0,0);
+					AttachObjectToVehicle(neon2{playerid},itmp[0],-0.8,0,-0.60,0,0,0);
+				}
 			}
-		if(itmp[1]== 560) //SULTAN
-			{
-			AttachObjectToVehicle(neon{playerid},itmp[0],0.82,0,-0.50,0,0,0);
-			AttachObjectToVehicle(neon2{playerid},itmp[0],-0.82,0,-0.50,0,0,0);
-			print("do a sultan way");
-			goto end;
-			}
-		if(itmp[1]== 559) //Jester
-			{
-			AttachObjectToVehicle(neon{playerid},itmp[0],0.82,0,-0.50,0,0,0);
-			AttachObjectToVehicle(neon2{playerid},itmp[0],-0.82,0,-0.50,0,0,0);
-			goto end;
-			}
-		if(itmp[1]== 561) //STRATUM
-			{
-			AttachObjectToVehicle(neon{playerid},itmp[0],0.8,0,-0.65,0,0,0);
-			AttachObjectToVehicle(neon2{playerid},itmp[0],-0.8,0,-0.65,0,0,0);
-			goto end;
-			}
-		if(itmp[1]== 562) //Elegy
-			{
-			AttachObjectToVehicle(neon{playerid},itmp[0],0.82,0,-0.50,0,0,0);
-			AttachObjectToVehicle(neon2{playerid},itmp[0],-0.82,0,-0.50,0,0,0);
-			goto end;
-			}
-		if(itmp[1]== 565) //flash
-			{
-			AttachObjectToVehicle(neon{playerid},itmp[0],0.82,0,-0.50,0,0,0);
-			AttachObjectToVehicle(neon2{playerid},itmp[0],-0.82,0,-0.50,0,0,0);
-			goto end;
-			}
-		else
-			{
-			//print("do a usual way");
-			AttachObjectToVehicle(neon{playerid},itmp[0],0.8,0,-0.60,0,0,0);
-			AttachObjectToVehicle(neon2{playerid},itmp[0],-0.8,0,-0.60,0,0,0);
-			}
-		end:	
 		return 1;
 		}
 	}

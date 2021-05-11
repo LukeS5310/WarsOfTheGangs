@@ -1420,17 +1420,15 @@ return 1;
 }
 public OneSecTimer()
 {
-//print("fired overal");
 #if defined _protect_included
 	Protect_tick();
-	//print("Protect is not ok");
 #endif
 
 #if defined _utils_included
 //MakeTPS();
 #endif
 #if defined _world_included
-sync_Time();
+	sync_Time();
 #endif
 #if defined _npcs_included
 	NPC_Tick();

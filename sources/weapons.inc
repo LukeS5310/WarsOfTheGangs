@@ -138,7 +138,8 @@ stock WeaponBuy(playerid,weapid)
 				{
 					format(stmp,sizeof(stmp),"Это оружие будет доступно с %d уровня!",itmp[2]);
 					SendClientMessage(playerid,SYSTEM_COLOR,stmp);
-					goto not_weap;
+					fclose(df);
+					return;
 				}
 				GivePlayerOwnedWeapon(playerid,itmp[0],500);
 				oGivePlayerMoney(playerid,-itmp[1]);
@@ -146,7 +147,6 @@ stock WeaponBuy(playerid,weapid)
 			}
 			else c++;
 		}
-		not_weap:
 		fclose(df);
 	}
 	else print("[ERROR] weapons file not exist");
